@@ -8,11 +8,15 @@
         body {
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #fdd835, #ffeb3b);
+            background-image: url('https://picsum.photos/1600/900');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             font-family: Arial, sans-serif;
         }
 
         .overlay {
+            background: rgba(255, 235, 59, 0.75); /* amarillo transparente */
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -26,7 +30,7 @@
             max-width: 850px;
             padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
         }
 
         h1 {
@@ -54,16 +58,17 @@
 
         .tag {
             display: inline-block;
-            background: #fff9c4;
-            padding: 5px 10px;
+            background: #fff176;
+            padding: 6px 12px;
             margin: 5px;
-            border-radius: 6px;
+            border-radius: 8px;
             font-size: 14px;
+            font-weight: bold;
         }
 
         .contacto {
-            background: #fffde7;
-            padding: 10px;
+            background: #fff9c4;
+            padding: 12px;
             border-radius: 8px;
         }
     </style>
@@ -76,9 +81,6 @@
 
         <div class="header">
             <h1>Nestor Quiroga</h1>
-            <div class="tag"></div>
-            <div class="tag"></div>
-            <div class="tag"></div>
         </div>
 
         <h2>Perfil</h2>
@@ -103,9 +105,7 @@
 
         <h2>Contacto</h2>
         <div class="contacto">
-            <p> San Martín, Mendoza</p>
-            <p>/p>
-            <p></p>
+            <p>📍 San Martín, Mendoza<p></p></p>
         </div>
 
     </div>
