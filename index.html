@@ -8,15 +8,11 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url('https://picsum.photos/1600/900');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background: linear-gradient(135deg, #fdd835, #ffeb3b);
             font-family: Arial, sans-serif;
         }
 
         .overlay {
-            background: rgba(0, 0, 0, 0.6);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -26,24 +22,49 @@
         .cv {
             background: white;
             color: #333;
-            width: 80%;
-            max-width: 800px;
-            padding: 25px;
-            border-radius: 10px;
+            width: 85%;
+            max-width: 850px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
         }
 
         h1 {
             margin-top: 0;
             text-align: center;
+            color: #fbc02d;
+            font-size: 32px;
         }
 
         h2 {
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 5px;
+            border-left: 6px solid #fdd835;
+            padding-left: 10px;
+            margin-top: 25px;
+            color: #444;
         }
 
         p {
-            margin: 5px 0;
+            margin: 6px 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #fff9c4;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .contacto {
+            background: #fffde7;
+            padding: 10px;
+            border-radius: 8px;
         }
     </style>
 </head>
@@ -53,25 +74,42 @@
 <div class="overlay">
     <div class="cv">
 
-        <h1>Nestor Quiroga</h1>
+        <div class="header">
+            <h1>Nestor Quiroga</h1>
+            <div class="tag">📱 Técnico en celulares</div>
+            <div class="tag">⚡ Responsable</div>
+            <div class="tag">🚀 Con ganas de aprender</div>
+        </div>
 
         <h2>Perfil</h2>
-        <p>Nací el 23 de noviembre de 2009. Tengo 16 años y cuento con 1 año de experiencia laboral en reparación de celulares. Me considero una persona responsable y con ganas de aprender.</p>
+        <p>Soy estudiante con orientación tecnológica y experiencia en servicio técnico de celulares. Me destaco por ser responsable, proactivo y con muchas ganas de seguir aprendiendo en el área técnica.</p>
 
         <h2>Experiencia</h2>
         <p><strong>Servicio técnico de celulares</strong> (2024 - 2026)</p>
-        <p>Experiencia en cambio de pantallas, placas de carga y diagnóstico básico de fallas técnicas.</p>
+        <p>Reparación de pantallas, placas de carga y diagnóstico de fallas técnicas.</p>
 
         <h2>Formación</h2>
         <p><strong>Escuela José Manuel Estrada 4-089</strong> (2023 - 2026)</p>
         <p>Orientación tecnológica.</p>
 
+        <h2>Habilidades</h2>
+        <p>✔ Reparación de celulares</p>
+        <p>✔ Diagnóstico técnico</p>
+        <p>✔ Cambio de componentes</p>
+        <p>✔ Atención al cliente</p>
+
         <h2>Idiomas</h2>
         <p>Español nativo</p>
+
+        <h2>Contacto</h2>
+        <div class="contacto">
+            <p>📍 San Martín, Mendoza</p>
+            <p>📱 Tel: Tu número</p>
+            <p>📧 Email: tuemail@gmail.com</p>
+        </div>
 
     </div>
 </div>
 
 </body>
 </html>
-
