@@ -2,50 +2,52 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>CV Nestor Quiroga</title>
-
+    <title>Imágenes de Fondo</title>
     <style>
         body {
-            background-image: url('https://picsum.photos/1920/1080');
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .seccion {
+            height: 100vh;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .img1 {
+            background-image: url('https://picsum.photos/id/1018/1920/1080');
+        }
+
+        .img2 {
+            background-image: url('https://picsum.photos/id/1015/1920/1080');
+        }
+
+        .img3 {
+            background-image: url('https://picsum.photos/id/1019/1920/1080');
         }
     </style>
-    
 </head>
-
 <body>
- 
-<div class="overlay">
-    <div class="cv">
-        <img src="nestitor.jpeg" style="width:200px;height:210px;">
-        <div class="header">
-            <h1>Nestor Quiroga</h1>
 
-        </div>
-
-        <h2>Perfil</h2>
-        <p>Soy estudiante con orientación tecnológica y experiencia en servicio técnico de celulares. Me destaco por ser responsable, proactivo y con muchas ganas de seguir aprendiendo en el área técnica.</p>
-
-        <h2>Experiencia</h2>
-        <p><strong>Servicio técnico de celulares</strong> (2024 - 2026)</p>
-        <p>Reparación de pantallas, placas de carga y diagnóstico de fallas técnicas.</p>
-
-        <h2>Formación</h2>
-        <p><strong>Escuela José Manuel Estrada 4-089</strong> (2023 - 2026)</p>
-        <p>Orientación tecnológica.</p>
-
-        <h2>Habilidades</h2>
-        <p>Reparación de celulares</p>
-        <p>Diagnóstico técnico</p>
-        <p>Cambio de componentes</p>
-
-        <h2>Idiomas</h2>
-        <p>Español nativo</p>
-
+    <div class="seccion img1">
+        Sección 1
     </div>
-</div>
+
+    <div class="seccion img2">
+        Sección 2
+    </div>
+
+    <div class="seccion img3">
+        Sección 3
+    </div>
 
 </body>
 </html>
